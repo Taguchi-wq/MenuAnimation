@@ -25,7 +25,13 @@ class ViewController: UIViewController {
     private func setupCollectionView(_ collectionView: UICollectionView) {
         collectionView.dataSource = self
     }
-
+    
+    
+    // MARK: - @IBAction
+    @IBAction private func tappedAnimationButton(_ sender: UIButton) {
+        
+    }
+    
 }
 
 extension ViewController: UICollectionViewDataSource {
